@@ -1,0 +1,40 @@
+# Tipos de variables
+
+# Numerícas: int, float, complex,
+# Texto: str="texto"
+# Booleano( true o false) continue continue=True
+
+#Mostrar texto 
+print('Texto a mostrar')
+#Crear variable que almacene una suma y luego multiplique X 2
+sum = 1+2 
+print('1+2 =', sum)
+product =sum *2
+print(sum, 'al doble es', product)
+
+#Fecha: importar biblioteca
+from datetime import date
+#Obtener fecha
+date.today
+#mostrar fecha
+print ("La fecha de hoy es:")
+print(date.today())
+
+# Convertir formatos: str(date.today)
+print("Today's date is: "+str(date.today()))
+
+# Introducir datos texto
+
+nombre = input("Introducir nombre")
+print("Hola, " + nombre)
+
+
+# Hacer suma: es importante convertir los datos a INT 
+first_number = input("Primer número: ")
+second_number = input("Segundo número: ")
+#suma erronea
+suma=first_number+second_number
+print ("Sin convertir a numeros el resultado es",suma)
+#suma correcta
+print("Convirtiendo a números el resultado es: ", int(first_number) + int(second_number))
+

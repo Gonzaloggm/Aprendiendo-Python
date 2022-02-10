@@ -1,2 +1,2 @@
-# ComandosBasicosPython
-Comandos básicos para Python comentados
+Python
+Iniciando a programar con Python
